@@ -6,31 +6,31 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "IT Network Support & Maintenance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Providing reliable IT network support and maintenance, including troubleshooting, hardware and software updates, and system monitoring to ensure optimal network performance and security.",
+    href: "/contact",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Web Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Designing and developing responsive and interactive websites tailored to your business needs, utilizing modern technologies and best practices to create an engaging online presence.",
+    href: "/contact",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Microsoft Active Directory & Office 365 Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Managing and optimizing Microsoft Active Directory and Office 365 environments, including user management, security policies, and collaboration tools to enhance productivity and streamline IT operations.",
+    href: "/contact",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Cybersecurity Solutions & Services",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Implementing comprehensive cybersecurity solutions to protect your organization from threats, including risk assessments, vulnerability management, and incident response to safeguard your digital assets.",
+    href: "/contact",
   },
 ];
 

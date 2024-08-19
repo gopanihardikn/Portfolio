@@ -7,6 +7,10 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaBootstrap,
+  FaAndroid,
+  FaJava,
+  FaPhp,
 } from "react-icons/fa";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
@@ -19,35 +23,27 @@ const about = {
   info: [
     {
       fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldValue: "Hardik Gopani",
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldValue: "(+1) 416 826 3526",
     },
     {
       fieldName: "Experience",
-      fieldValue: "12+ Years",
-    },
-    {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "8+ Years",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "gopanihardikn@gmail.com",
     },
     {
-      fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldName: "Linked-In",
+      fieldValue: "gopanihardikn",
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English, Hindi",
     },
   ],
 };
@@ -57,37 +53,27 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "With a diverse background in IT support and Development, I have honed my skills in managing and maintaining complex IT infrastructures, providing top-tier technical support, and developing front-end solutions. My experience spans across various roles where I've consistently delivered efficient and secure IT services.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "F12.net",
+      position: "System Analyst",
+      duration: "2023 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
+      company: "Majorel INC",
+      position: "Senior Desktop Support Engineer",
+      duration: "2020 - 2023",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Apple",
+      position: "Technical Support Representative",
+      duration: "2021 - 2021",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "La-Minds",
+      position: "Front-End Developer",
+      duration: "2015 - 2019",
     },
   ],
 };
@@ -97,37 +83,37 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "My academic journey and certifications have equipped me with a comprehensive understanding of IT systems, network management, cloud administration, and software development. From foundational engineering to advanced certifications, I've continuously expanded my knowledge to stay at the forefront of technology.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "CompTIA",
+      degree: "CompTIA Network+",
+      duration: "2024",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      institution: "Microsoft",
+      degree: "Azure Administrator Associate",
+      duration: "2024",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "Udemy",
+      degree: "The Complete Web Developer",
+      duration: "2020",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
+      institution: "Conestoga College",
+      degree: "Mobile and Web Soultions Development",
+      duration: "2019 - 2020",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
+      institution: "Gujarat Technological University",
+      degree: "Computer and Science Engineering",
+      duration: "2014 - 2017",
     },
     {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      institution: "Gujarat Technological University",
+      degree: "Diploma in Computer Engineering",
+      duration: "2011 - 2014",
     },
   ],
 };
@@ -136,15 +122,15 @@ const education = {
 const skills = {
   title: "My skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "",
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "HTML 5",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "CSS",
     },
     {
       icon: <FaJs />,
@@ -152,23 +138,23 @@ const skills = {
     },
     {
       icon: <FaReact />,
-      name: "react.js",
-    },
-    {
-      icon: <SiNextdotjs />,
-      name: "next.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      name: "react",
     },
     {
       icon: <FaNodeJs />,
-      name: "node.js",
+      name: "node",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <FaAndroid />,
+      name: "Android",
+    },
+    {
+      icon: <FaJava />,
+      name: "Java",
+    },
+    {
+      icon: <FaPhp />,
+      name: "php",
     },
   ],
 };

@@ -22,36 +22,25 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "Robo Friend ",
     title: "project 1",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "This is a ReactJS App. Search name in search box and it will show the result as requested.",
+    stack: [{ name: "ReactJS" }, { name: "Responsive" }, { name: "Javascript" }],
     image: "/assets/work/thumb1.png",
-    live: "",
-    github: "",
+    live: "https://wonderful-lumiere-56f6b5.netlify.app/",
+    github: "https://github.com/gopanihardikn/robo-friend",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Old Test Portfolio",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "Old responsive portfolio that I created when I was in school.",
+    stack: [{ name: "HTML" }, { name: "CSS" }, { name: "Javascript" }],
     image: "/assets/work/thumb2.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "frontend",
-    title: "project 3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }],
-    image: "/assets/work/thumb3.png",
-    live: "",
-    github: "",
+    live: "https://determined-jennings-b9706f.netlify.app/",
+    github: "https://github.com/gopanihardikn/hardik_portfolio",
   },
 ];
 
